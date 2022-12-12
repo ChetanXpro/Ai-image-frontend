@@ -9,7 +9,7 @@ function App() {
   const [imgUrl, setImgurl] = useState("");
   const [error, seterror] = useState(false);
   const instance = axios.create({
-    baseURL: "https://ai-image-emhz.onrender.com",
+    baseURL: "https://ai-image-backend-9uig.vercel.app/",
     timeout: 9000,
     headers: {
       "Content-Type": "application/json",
